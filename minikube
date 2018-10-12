@@ -1,0 +1,4 @@
+kubectl delete -f ./mysql-deployment.yaml
+kubectl delete -f ./wordpress-deployment.yaml
+minikube stop
+minikube star
