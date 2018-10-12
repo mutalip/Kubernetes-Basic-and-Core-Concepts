@@ -1,0 +1,4 @@
+kubectl create -f local-volumes.yaml
+kubectl apply -f mysql-deployment.yaml
+kubectl apply -f wordpress-deployment.yaml
+minikube service wordpress --url
