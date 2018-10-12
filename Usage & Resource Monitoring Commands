@@ -1,0 +1,3 @@
+minikube addons enable heapster
+kubectl get pods --namespace=kube-system
+minikube addons open heapster
